@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+<meta charset="utf-8">
+<title>Количество дней в году</title>
+
+</head>
+<body>
+<script>
+
+	var year = +prompt("Введите год:");
+	if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
+		alert("Год высокосный-366 дней");
+	}else{
+		alert("Год не высокосный-365 дней");
+	}
+
+</script>
+</body>
+</html>
